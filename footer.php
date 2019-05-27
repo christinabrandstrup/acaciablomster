@@ -40,7 +40,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 				<div id="footer-bottom">
 					<div class="container clearfix">
 				<?php
-					if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
+					if ( false !== et_get_option( 'show_footer_social_icons', false ) ) {
 						get_template_part( 'includes/social_icons', 'footer' );
 					}
 

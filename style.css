@@ -1,5 +1,5 @@
 /*
-Theme Name:   Divi-child
+Theme Name:   Divi-childtheme
 Description:  Skriv en kortfattet beskrivelse af dit undertema
 Author:       christina
 Author URL:   Skriv website adressen på forfatterens blog eller hjemmeside
@@ -7,7 +7,72 @@ Template:     Divi
 Version:      1.0
 License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  divi-child
+Text Domain:  divi-childtheme
 */
 
 /* Skriv her dit eget personlige stylesheet */
+
+
+
+/*********** Forsiden ***********/
+
+#omtekst {
+	position: relative;
+    z-index: -1;
+	display: flex;
+}
+#ejeracacia {
+		position: relative;
+    z-index: 1;
+}
+
+
+
+/*Knapper*/
+
+#storeknapper {
+	width: 90%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.stknap {
+	width: 90%;
+	padding: 2%;
+	margin: 5%;
+}
+
+.brullypsknapper, .stknap {
+	width: 90%; 
+	height: auto;
+	padding: 23% 12%;
+}
+
+
+
+
+
+/****** Footer *********/
+
+footer-info {
+	width: 100%;
+	display: flex;
+}
+
+footer-widgets {
+	display: flex;
+	flex-direction: row;
+	padding: 3%;
+}
+/* background-attachment: url("Blomsthjørne-150x150.png"); */
+
+footer h4{
+	padding-bottom: 7%;
+}
+footer p{
+	padding-bottom: 3%;
+}
+
+
+
